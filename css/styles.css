@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* IMAGES are also center allinged*/
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 80px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.4rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 8px;
+  height: 2px;
+  color: #d2d2d2;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  font-family: Montserrat;
+}
+
+p {
+  font-size: 17px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  /* background-color: #30E3CA; */
+  padding-top: 100px;
+  padding-bottom: 400px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 40px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 200px;
+  position: relative;
+}
+
+.breif {
+  margin-left: 771px;
+  margin-top: 150px;
+}
+
+/* .top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+} */
+.bottom-web {
+  position: absolute;
+  height: 530px;
+  top: 169px;
+  left: 10px;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.programming {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.graphic-design {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 100px;
+  margin-bottom: 180px;
+  position: relative;
+}
+
+.contact-breif {
+  position: relative;
+  margin: auto 0 auto 0;
+}
+
+.btn {
+  font-size: 25px;
+  font-family: Montserrat;
+  border-width: 0;
+  color: #fff;
+  border: none;
+  padding: 13px 15px 13px 15px;
+  border-radius: 8px;
+  background: linear-gradient(rgba(17, 205, 212, 1), rgba(17, 153, 158, 1));
+  text-decoration: none;
+  position: relative;
+  top: 80px;
+}
+
+.btn:hover {
+  background: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.footer-link {
+  top: 60px;
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  color: #11999E;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.copyright {
+  top: 100px;
+  position: relative;
+  color: #EAF6F6;
+}
